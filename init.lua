@@ -1,2 +1,1 @@
 require('custom')
-print('hello')
