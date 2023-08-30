@@ -1,6 +1,6 @@
 print('custom config')
 
--- Package Manager
+-- Package Manager Setup
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -21,6 +21,9 @@ require("lazy").setup({
   },
   {
     'rose-pine/neovim', name = 'rose-pine'
+  },
+  {
+    'nvim-treesitter/nvim-treesitter', build = ':TSUpdate'
   }
 })
 
