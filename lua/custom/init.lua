@@ -1,5 +1,3 @@
-print('custom config')
-
 -- Package Manager Setup
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -109,3 +107,7 @@ vim.cmd('colorscheme rose-pine')
 
 -- Remap Commands
 require('custom.remap')
+
+-- Set Commands
+require('custom.set')
+
