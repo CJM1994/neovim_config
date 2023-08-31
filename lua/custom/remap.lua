@@ -2,9 +2,9 @@
 vim.g.mapleader = ' '
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
--- Move Lines & Respect Indentation
-vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
-vim.keymap.set('v', 'K', ":m '>-2<CR>gv=gv")
+-- Bubble Lines & Respect Indentation
+vim.api.nvim_set_keymap('v', 'J', ":m '>+1<CR>gv=gv", { noremap=true })
+vim.api.nvim_set_keymap('v', 'K', ":m '<-2<CR>gv=gv", { noremap=true })
 
 -- Keep Cursor Center On Half Page Move
 vim.keymap.set('n', '<C-d>', '<C-d>zz')
