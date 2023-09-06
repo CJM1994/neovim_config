@@ -35,13 +35,13 @@ require("lazy").setup({
         branch = 'v2.x',
         dependencies = {
             -- LSP Support
-            { 'neovim/nvim-lspconfig' },    -- Required
-            { 'williamboman/mason.nvim' },  -- Optional
+            { 'neovim/nvim-lspconfig' },             -- Required
+            { 'williamboman/mason.nvim' },           -- Optional
             { 'williamboman/mason-lspconfig.nvim' }, -- Optional
             -- Autocompletion
-            { 'hrsh7th/nvim-cmp' },         -- Required
-            { 'hrsh7th/cmp-nvim-lsp' },     -- Required
-            { 'L3MON4D3/LuaSnip' },         -- Required
+            { 'hrsh7th/nvim-cmp' },                  -- Required
+            { 'hrsh7th/cmp-nvim-lsp' },              -- Required
+            { 'L3MON4D3/LuaSnip' },                  -- Required
         }
     },
 })
@@ -49,7 +49,7 @@ require("lazy").setup({
 -- Load Color Scheme
 require('rose-pine').setup({
     --- @usage 'auto'|'main'|'moon'|'dawn'
-    variant = 'auto',
+    variant = 'moon',
     --- @usage 'main'|'moon'|'dawn'
     dark_variant = 'main',
     bold_vert_split = false,
@@ -110,4 +110,3 @@ require('custom.remap')
 
 -- Set Commands
 require('custom.set')
-
