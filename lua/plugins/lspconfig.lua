@@ -33,6 +33,8 @@ return {
       tailwindcss = {
         filetypes_exclude = { "markdown" },
       },
+
+      terraformls = {},
     },
     setup = {
       tsserver = function(_, opts)
