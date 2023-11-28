@@ -1,8 +1,6 @@
 return {
-  -- add gruvbox
   { "rose-pine/neovim" },
 
-  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
@@ -10,3 +8,16 @@ return {
     },
   },
 }
+
+-- return {
+--   -- add gruvbox
+--   { "ellisonleao/gruvbox.nvim" },
+--
+--   -- Configure LazyVim to load gruvbox
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "gruvbox",
+--     },
+--   },
+-- }
