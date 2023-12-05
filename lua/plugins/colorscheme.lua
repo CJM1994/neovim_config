@@ -1,23 +1,38 @@
 return {
-  { "rose-pine/neovim" },
-
   {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "rose-pine-moon",
+    {
+      { "ellisonleao/gruvbox.nvim" },
+      {
+        "LazyVim/LazyVim",
+        opts = {
+          colorscheme = "gruvbox",
+        },
+      },
+    },
+    {
+      { "rose-pine/neovim" },
+      {
+        "LazyVim/LazyVim",
+        opts = {
+          colorscheme = "rose-pine-moon",
+        },
+      },
+    },
+    {
+      { "shaunsingh/nord.nvim" },
+      {
+        "LazyVim/LazyVim",
+        opts = {
+          colorscheme = "nord",
+        },
+      },
+    },
+    { "rebelot/kanagawa.nvim" },
+    {
+      "LazyVim/LazyVim",
+      opts = {
+        colorscheme = "kanagawa",
+      },
     },
   },
 }
-
--- return {
---   -- add gruvbox
---   { "ellisonleao/gruvbox.nvim" },
---
---   -- Configure LazyVim to load gruvbox
---   {
---     "LazyVim/LazyVim",
---     opts = {
---       colorscheme = "gruvbox",
---     },
---   },
--- }
