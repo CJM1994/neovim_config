@@ -27,11 +27,31 @@ return {
         },
       },
     },
-    { "rebelot/kanagawa.nvim" },
     {
-      "LazyVim/LazyVim",
-      opts = {
-        colorscheme = "kanagawa",
+      { "rebelot/kanagawa.nvim" },
+      {
+        "LazyVim/LazyVim",
+        opts = {
+          colorscheme = "kanagawa",
+        },
+      },
+    },
+    {
+      { "kvrohit/rasmus.nvim" },
+      {
+        "LazyVim/LazyVim",
+        opts = {
+          colorscheme = "rasmus",
+        },
+      },
+    },
+    {
+      { "savq/melange-nvim" },
+      {
+        "LazyVim/LazyVim",
+        opts = {
+          colorscheme = "melange",
+        },
       },
     },
   },
