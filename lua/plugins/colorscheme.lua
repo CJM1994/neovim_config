@@ -54,5 +54,14 @@ return {
         },
       },
     },
+    {
+      { "Tsuzat/NeoSolarized.nvim" },
+      {
+        "LazyVim/LazyVim",
+        opts = {
+          colorscheme = "NeoSolarized",
+        },
+      },
+    },
   },
 }
