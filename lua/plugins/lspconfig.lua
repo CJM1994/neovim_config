@@ -11,18 +11,10 @@ return {
         },
         settings = {
           typescript = {
-            format = {
-              indentSize = vim.o.shiftwidth, -- 4 to match Rocky
-              convertTabsToSpaces = vim.o.expandtab, -- true to match Rocky
-              tabSize = vim.o.tabstop, -- 4 to match Rocky
-            },
+            format = {},
           },
           javascript = {
-            format = {
-              indentSize = vim.o.shiftwidth,
-              convertTabsToSpaces = vim.o.expandtab,
-              tabSize = vim.o.tabstop,
-            },
+            format = {},
           },
           completions = {
             completeFunctionCalls = true,

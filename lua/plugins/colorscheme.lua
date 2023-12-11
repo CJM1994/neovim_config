@@ -10,15 +10,6 @@ return {
       },
     },
     {
-      { "rose-pine/neovim" },
-      {
-        "LazyVim/LazyVim",
-        opts = {
-          colorscheme = "rose-pine-moon",
-        },
-      },
-    },
-    {
       { "shaunsingh/nord.nvim" },
       {
         "LazyVim/LazyVim",
@@ -46,20 +37,29 @@ return {
       },
     },
     {
-      { "savq/melange-nvim" },
-      {
-        "LazyVim/LazyVim",
-        opts = {
-          colorscheme = "melange",
-        },
-      },
-    },
-    {
       { "Tsuzat/NeoSolarized.nvim" },
       {
         "LazyVim/LazyVim",
         opts = {
           colorscheme = "NeoSolarized",
+        },
+      },
+    },
+    {
+      { "rose-pine/neovim" },
+      {
+        "LazyVim/LazyVim",
+        opts = {
+          colorscheme = "rose-pine-moon",
+        },
+      },
+    },
+    {
+      { "savq/melange-nvim" },
+      {
+        "LazyVim/LazyVim",
+        opts = {
+          colorscheme = "melange",
         },
       },
     },
