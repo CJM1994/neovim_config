@@ -7,10 +7,11 @@ return {
     { "rose-pine/neovim" },
     { "savq/melange-nvim" },
     { "rebelot/kanagawa.nvim" },
+    { "EdenEast/nightfox.nvim" },
     {
       "LazyVim/LazyVim",
       opts = {
-        colorscheme = "rose-pine-moon",
+        colorscheme = "duskfox",
       },
     },
   },
